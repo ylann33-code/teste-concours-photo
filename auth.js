@@ -49,5 +49,5 @@ async function logout(){
     await signOut(auth);
 
     location.reload();
-
+ 
 }
