@@ -1,44 +1,29 @@
 // Import Firebase
-import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
 
 import {
     getAuth,
     GoogleAuthProvider,
     signInWithPopup,
     signOut
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/12.13.0/firebase-auth.js";
 
 import {
     getFirestore
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/12.13.0/firebase-firestore.js";
 
 import {
     getStorage
-} from "https://www.gstatic.com/firebasejs/12.1.0/firebase-storage.js";
+} from "https://www.gstatic.com/firebasejs/12.13.0/firebase-storage.js";
 
 // Configuration Firebase
 const firebaseConfig = {
-
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
     apiKey: "AIzaSyAaUqBNAqL9JcX_okhnE0c1U3pqpgsNA6s",
     authDomain: "photo-contest-ylann.firebaseapp.com",
     projectId: "photo-contest-ylann",
     storageBucket: "photo-contest-ylann.firebasestorage.app",
     messagingSenderId: "290922422993",
     appId: "1:290922422993:web:3ade8b3fe345ff4f8e9bf0"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-</script>
-
 };
 
 // Initialisation
